@@ -29,8 +29,8 @@ def calculator():
         switch = False
     elif equation == 'h':
         print("""
-        The calculator supports addition(+), subtraction(-), multiplication(*), exponent(**), division(/) and modulus(\\\\)
-        using the operators as described in the brackets.
+        The calculator supports addition(+), subtraction(-), multiplication(*), exponent(**),
+        division(/) and modulus(//) using the operators as described in the brackets.
         """)
     # elif re.sub('[1234567890+*/" "]', '', equation) == "" or re.sub('[1234567890]', '', equation) == "-":
     # print("Please enter a number after the operator.")
